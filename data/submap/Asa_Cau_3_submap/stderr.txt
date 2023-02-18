@@ -1,0 +1,15 @@
+
+ *** caught segfault ***
+address 0xfffffffef3d51858, cause 'memory not mapped'
+
+Traceback:
+ 1: sort.list(vals)
+ 2: oV(x, wts)
+ 3: inherits(x, "dendrogram")
+ 4: midcache.dendrogram(oV(x, wts))
+ 5: reorder.dendrogram(d, w)
+ 6: reorder(d, w)
+ 7: reorderfun(ddr, Rowv)
+ 8: heatmap(bonf.SA.matrix, Rowv = clust.row, Colv = clust.col, scale = "none",     col = rainbow(1000, start = (0 + 0.7 * min.matrix), end = 0.7 *         max.matrix, gamma = 1))
+ 9: submap.main("/opt/gpcloud/gp_home/users/nesliiky/uploads/data/TCGA_Asa_data.gct",     "/opt/gpcloud/gp_home/users/nesliiky/uploads/data/TCGA_Eua_data.gct",     "/opt/gpcloud/gp_home/users/nesliiky/uploads/brunet/asa_bru_3000_nmf_3_cluster_assigment.cls",     "/opt/gpcloud/gp_home/users/nesliiky/uploads/brunet/cau_bru_3000_nmf_3_cluster_assigment.cls",     "Asa_cau_3_oth", "100", "100", "1000", "1", "pool", "both",     "1", "1", "T", "T", "12345")
+aborting ...

@@ -1,0 +1,39 @@
+*** Subbclass Mappping Results ***
+
+input.data.A:  /opt/gpcloud/gp_home/users/nesliiky/uploads/data/TCGA_Asa_data.gct
+input.data.B:  /opt/gpcloud/gp_home/users/nesliiky/uploads/data/TCGA_Eua_data.gct
+# of intersection genes:  2450
+input.cls.A:  /opt/gpcloud/gp_home/users/nesliiky/uploads/brunet/asa_bru_3000_nmf_2_cluster_assigment.cls
+input.cls.B:  /opt/gpcloud/gp_home/users/nesliiky/uploads/brunet/cau_bru_3000_nmf_2_cluster_assigment.cls
+# of marker genes:  100
+# of permutation for nominal-p of ES:  100
+# of permutation for nominal-p of Fisher's statistics:  1000
+SNR weight for ES (1=yes, 0=no):  1
+choice of null distribution:  pool
+p-value correction method (for Fisher's statistics):  both
+
+$Bonferroni.SA.matrix
+            B1          B2
+A1 0.003996004 1.000000000
+A2 1.000000000 0.003996004
+
+$FDR.SA.matrix
+            B1          B2
+A1 0.002664003 1.000000000
+A2 1.000000000 0.002664003
+
+$nominal.p.matrix.Fisher
+            B1          B2
+A1 0.000999001 1.000000000
+A2 1.000000000 0.000999001
+
+$nominal.p.matrix.ES.A.on.B
+            B1          B2
+A1 0.007481297 0.995012469
+A2 1.000000000 0.002493766
+
+$nominal.p.matrix.ES.B.on.A
+            B1          B2
+A1 0.004987531 1.000000000
+A2 0.997506234 0.002493766
+
